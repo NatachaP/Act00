@@ -122,7 +122,7 @@ resultado2 = gradiente(x0, f, df, tol, maxIt, 2)
 
 row = 1
 col = 0
-for iteracion, x_val, fx, parada in resultado1[3]:
+for iteracion, x_val, fx, parada in resultado2[3]:
     experimento_2.write(row, col, iteracion)
     experimento_2.write(row, col + 1, x_val)
     experimento_2.write(row, col + 2, fx)
